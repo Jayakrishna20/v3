@@ -39,7 +39,7 @@ const Contact = () => {
       )
       .then(() => {
         setIsLoading(false);
-        showAlert({ show: True, text: "Message sent successfully!", type: "success" });
+        showAlert({ show: true, text: "Message sent successfully!", type: "success" });
 
         setTimeout(() => {
           hideAlert();
@@ -64,8 +64,7 @@ const Contact = () => {
 
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
-      {alert.show && <Alert {...alert} />}
-      <Alert {...alert} />
+      {alert.show && <Alert {...alert} />}      
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in Touch</h1>
 
