@@ -41,7 +41,7 @@ const Home = () => {
   };
 
   const [islandScale, islandPosition, islandRotation] = adjustIslandForScreenSize();
-  const [planeScale, planeRotation] = adjustPlaneForScreenSize();
+  const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
   return (
     <section className="w-full h-screen relative">
@@ -71,8 +71,8 @@ const Home = () => {
             setCurrentStage={setCurrentStage}
           />
           <Plane
-            planeScale={planeScale}
-            planeRotation={planeRotation}
+            scale={planeScale}
+            position={planePosition}
             isRotating={isRotating}
             rotation={[0, 20, 0]}
           />
