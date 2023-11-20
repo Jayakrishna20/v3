@@ -1,27 +1,26 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-  car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
   html,
   javascript,
   linkedin,
-  mongodb,  
+  mongodb,
   nextjs,
   nodejs,
   pricewise,
   react,
   flutter,
   unity,
-  snapgram,
   summiz,
   tailwindcss,
-  threads,
   typescript,
+  netflix,
+  music,
+  reddit,
+  crowd,
 } from "../assets/icons";
 
 export const skills = [
@@ -122,38 +121,43 @@ export const projects = [
     name: "Amazon Price Tracker",
     description:
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
+    github: "",
     link: "https://github.com/adrianhajdin/pricewise",
   },
   {
-    iconUrl: threads,
+    iconUrl: netflix,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Netflix UI clone",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "Built a Netflix UI clone in Flutter, integrating themoviedb.org API, employing domain-driven development principles for a seamless, intuitive user experience.",
+    github: "https://github.com/Jayakrishna20/netflix-clone",
+    
   },
   {
-    iconUrl: car,
+    iconUrl: music,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Lyriks - Music Player",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Cutting-edge music player: modern homepage, search, lyrics, song exploration, local and global charts. Responsive web app using Shazam Core API.",
+    github: "https://github.com/Jayakrishna20/lyriks",
+    link: "https://jk-lyriks-app.netlify.app/",
   },
   {
-    iconUrl: snapgram,
+    iconUrl: reddit,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Full Stack Reddit Clone",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "Built a Reddit clone with React, Firebase, Next.js, Chakra UI, TypeScript. Includes authentication, Firestore, cloud functions, security rules, deployment, and more.",
+    github: "https://github.com/Jayakrishna20/reddit_clone",
+    link: "https://jk-reddit-clone.vercel.app/",
   },
   {
-    iconUrl: estate,
+    iconUrl: crowd,
     theme: "btn-back-black",
     name: "Real-Estate Application",
     description:
       "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+    github: "",
     link: "https://github.com/adrianhajdin/projects_realestate",
   },
   {
@@ -162,6 +166,7 @@ export const projects = [
     name: "AI Summarizer Application",
     description:
       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+    github: "",
     link: "https://github.com/adrianhajdin/project_ai_summarizer",
   },
 ];
