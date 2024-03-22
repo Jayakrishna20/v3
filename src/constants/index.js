@@ -20,7 +20,6 @@ import {
   netflix,
   music,
   reddit,
-  crowd,
 } from "../assets/icons";
 
 export const skills = [
@@ -122,7 +121,7 @@ export const projects = [
     description:
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
     github: "",
-    link: "https://github.com/adrianhajdin/pricewise",
+    link: "https://github.com/Jayakrishna20/pricewise",
   },
   {
     iconUrl: netflix,
@@ -152,21 +151,12 @@ export const projects = [
     link: "https://jk-reddit-clone.vercel.app/",
   },
   {
-    iconUrl: crowd,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    github: "",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
     iconUrl: summiz,
     theme: "btn-back-yellow",
     name: "AI Summarizer Application",
     description:
       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    github: "",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+    github: "https://github.com/Jayakrishna20/ai_summarizer",
+    link: "https://jk-ai-summarizer.netlify.app/",
   },
 ];
